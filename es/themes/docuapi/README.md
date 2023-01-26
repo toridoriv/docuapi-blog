@@ -10,9 +10,9 @@
 
 ![Captura de pantalla Sitio de ejemplo de DocuAPI](https://raw.githubusercontent.com/bep/docuapi/master/images/screenshot.png)
 
-## Use
+## Uso
 
-The client library used to build the ToC does not handle Unicode very well. To get around this in Hugo &gt;= 0.62.2, put this in your site config:
+La librería que usamos para crear la tabla de contenidos no se maneja muy bien con caracteres Unicode. Para evitar problemas, en versiones de Hugo &gt;= 0.62.2, agrega lo siguiente en la configuración de tu sitio:
 
 ```toml
 [markup]
